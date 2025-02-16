@@ -9,9 +9,6 @@ function App() {
 
   return (
     <>
-      {movieNumber === 1 && <MovieCard movie={{title: "Elot's Film", release_date: "2024"}} /> }
-      
-      {/* <MovieCard movie={{title: "kaka's Film", release_date: "2022"}} /> */}
     </>
   );
 }
