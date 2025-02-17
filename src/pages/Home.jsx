@@ -11,9 +11,11 @@ function Home() {
         <>
             <div className="home">
                 <div className="movie-grid">
-                    {movies.map(movie => <MovieCard />)}
+                    {movies.map(movie => <MovieCard movie={movie} key={movie.id} />)}
                 </div>
             </div>
         </>
     )
 }
+
+export default Home
