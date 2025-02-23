@@ -10,11 +10,11 @@ function NavBar () {
 
             <div className="navbar-links">
                 <Link to="/" className="nav-link">Home</Link>
-                <Link to="/favorites" className="nav-link">favorites</Link>
+                <Link to="/favorites" className="nav-link">Favorites</Link>
             </div>
         </nav>
         </>
     )
 }
 
-export default Navbar
+export default NavBar

@@ -10,4 +10,4 @@ function Favorite() {
     )
 }
 
-export default Favorite
+export default Favorite;
