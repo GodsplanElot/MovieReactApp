@@ -5,9 +5,9 @@ function App() {
   const movieNumber = 1;
 
   return (
-    <>
-    <Home />
-    </>
+    <main className="main-content">
+      <Routes></Routes>
+    </main>
   );
 }
 
